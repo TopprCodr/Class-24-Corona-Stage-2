@@ -1,4 +1,3 @@
-(function() {
 
   var items = document.querySelectorAll(".timeline li");
   function isElementInViewport(el) {
@@ -20,4 +19,3 @@
   }
   window.addEventListener("scroll", callbackFunc);
 
-})();
